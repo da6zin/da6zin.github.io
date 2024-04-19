@@ -55,6 +55,7 @@ body {
 
 .home-content {
     max-width: 600px;
+    margin-top: 100px;
 }
 
 .home-content h1 {
@@ -163,26 +164,6 @@ body {
     width: 24vw;
     position: absolute;
     right: 10vw;
-    top: 10vw;
-    margin-top: 120px;
-}
-
-@media screen and (max-width: 800px) {
-    header{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
-
-    .home{
-       width: 60vw;
-       height: 800px;
-       background-color: aqua;
-    }
-    
-    
-    .img-source img{
-        width: 30%;
-    }
+    top: 5vw;
+    margin-top: 70px;
 }
